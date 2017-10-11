@@ -1,0 +1,30 @@
+Question: do we need to create a MondoDB 
+database manually, or can we do it in our
+app, using mongoose?
+
+New ubuntu command: 'ps' : displays 
+information about a selection of 
+currently active processes. Adding the
+-ef flag to this command makes it dislpay
+all currently active processes.
+
+grep: a command-line utility for searching plain-text data sets for lines that match a regular expression. Its name comes from the ed command g/re/p (globally search a regular expression and print)
+
+ |  <--- This is a pipe. It is used in ubuntu
+ tp send the output of one program to another
+ program for further processing. 
+
+ --<< THUS!!! >>--
+
+ ...
+
+ ps -ef | grep mongo
+
+ ... returns a list of currently active 
+ processes, then searches that list for 
+ anything with the word 'mongo' in it, and
+ displays that to us.
+
+ Holy moley, we can run 'mongo' on our terminal from anywhere on our system.
+
+ 
